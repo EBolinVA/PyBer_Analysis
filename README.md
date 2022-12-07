@@ -5,11 +5,11 @@ Analyze and visualize ride-sharing data using Python, Pandas, and the Matplotlib
 
 ## Challenge Solution
 
-[Challenge Solution](Challenge_Solution): The solution files for the module's challenge assignment are located in this folder.
+[Challenge Solution](PyBer.ipynb): The solution files for the module's challenge assignment are located in this folder.
 
 ## Module Solution
 
-[Module Solution](Module_Solution): Any module demos or solution files for the module async content are located in this folder.
+[Module Solution](PyBer_Challenge.ipynb): Any module demos or solution files for the module async content are located in this folder.
 
 ## Results
 Analysis of the data showed that more rides occurred in urban areas in 2019. The average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively. The number of rides in each city type is shown in the box plot below:
@@ -36,4 +36,17 @@ Merged together, the line chart below illustrates the Total Fare by City Type fo
 
 ![image of a line chart showing Total Fare by City Type for Quarter 1 of 2019](/Resources/Challenge_fare_summary.png)
 
+## Summary and Recommendations
 
+Based on the results of 2019 PyBer rideshare analysis showing overall higher revenue in urban areas, and lower ride count but higher average fares in rural areas, here are three recommendations for PyBer:
+
+- Increase the number of drivers in rural areas to meet ride demand
+    - Average fare per ride, and average fare per driver in rural areas is higher than both urban and suburban areas. Increasing rural area drivers will meet demand during peaks in ride-share business. 
+
+
+- Increase fare for rides in urban areas. 
+    - Demand for rides in urban areas is evident with % Total Rides by City Type. 
+    - Average Fares per driver is lowest in urban areas, so increasing the fare will encourage drivers to make more trips, earning them more pay.
+
+- Consider analyzing pay per mile in each area. 
+    - A close look at pay structure might lead to equalizing pay per mile across city types.
