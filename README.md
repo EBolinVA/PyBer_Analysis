@@ -27,12 +27,11 @@ Average fares for riders in rural areas is as much as $11 higher than urban area
 However, we know from the Ride Count Data (2019) chart above that there is simply more demand for rides in urban areas. Even with lower average fares than suburban and rural city types, urban areas bring in more revenue for Pyber.
 
 <p float="left">
-    <img src="/Resources/Fig5.png" width="100">
-    <img src="/Resources/Fig6.png" width="100">
-    <img src="/Resources/Fig7.png" width="100">
+    <img align="top" src="/Resources/Fig5.png" width="32%">
+    <img align="top" src="/Resources/Fig6.png" width="32%">
+    <img align="top" src="/Resources/Fig7.png" width="32%">
 </p>
 
-![Image of pie chart showing 2019 fare data for urban, suburban and rural areas](/Resources/Fig5.png "Ride Fare Data (2019)")
 
 
 
