@@ -12,6 +12,15 @@ Analyze and visualize ride-sharing data using Python, Pandas, and the Matplotlib
 [Module Solution](Module_Solution): Any module demos or solution files for the module async content are located in this folder.
 
 ## Results
-Analysis of the data showed that more rides occurred in urban areas as shown in the box plot below:
+Analysis of the data showed that more rides occurred in urban areas in 2019. The average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively. The number of rides in each city type is shown in the box plot below:
 
-![Image of box plot showing 2019 ride data for urban, suburban and rural areas](fig2.png "Ride Count Data (2019)")
+![Image of box plot showing 2019 ride data for urban, suburban and rural areas](/Resources/fig2.png "Ride Count Data (2019)")
+
+While average fare for riders in rural areas is as much as $11 higher than Urban areas, we know from the previous chart that there is simply more demand for rides in Urban areas. Overall, urban areas bring in more revenue for Pyber.
+
+![Image of box plot showing 2019 fare data for urban, suburban and rural areas](/Resources/fig3.png "Ride Fare Data (2019)")
+
+It follows that with more demand for rides, there are more drivers in the urban areas: 
+
+![Image of box plot showing 2019 driver data for urban, suburban and rural areas](/Resources/fig4.png "Driver Count Data (2019)")
+
