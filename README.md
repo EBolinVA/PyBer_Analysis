@@ -1,7 +1,7 @@
 # PyBer Ride Sharing Analysis
 
 ## Overview of the analysis
-The purpose of this project is to perform descriptive statistics, analyze and visualize ride-sharing data for PyBer, a ride-sharing company. using Python, Pandas, and the Matplotlib library. Given two files of ride-sharing data: city_data comprised of city name, # of drivers, and city type, and ride_data comprised of city name, date, fare and ride id, the two files were merged and analysis performed to determine the types of cities with the greatest amount of fares and the types of cities where the most rides occured per week. 
+The purpose of this project is to perform descriptive statistics, analyze and visualize ride-sharing data for PyBer, a ride-sharing company. Methods include using Python, Pandas, and the Matplotlib library. Given two files of ride-sharing data: "city_data.csv" comprised of city name, # of drivers, and city type, and "ride_data.csv" comprised of city name, date, fare and ride id, the two files were merged and analysis performed to determine the types of cities with the greatest amount of fares and the types of cities where the most rides occured per week. 
 
 ## Challenge Solution
 
@@ -12,7 +12,13 @@ The purpose of this project is to perform descriptive statistics, analyze and vi
 [Module Solution](PyBer_Challenge.ipynb): Any module demos or solution files for the module async content are located in this folder.
 
 ## Results
-Analysis of the data showed that more rides occurred in urban areas in 2019. The average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively. The number of rides in each city type is shown in the box plot below:
+Analysis of the data showed that more rides occurred in urban areas in 2019. 
+
+A summary of the data by city type shows the large difference in numbers of total rides and total drivers in urban areas compared to suburban and rural areas. Even though fares in urban areas are on average lower than suburban and rural fares, the number of rides in urban areas results in higher revenue in total fares. However, the average fare per driver is highest in rural areas.
+
+![Image of summary data for PyBer ride-shares in 2019](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Summary_DataFrame.png)
+
+The average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively. The number of rides in each city type is shown in the box plot below:
 
 ![Image of box plot showing 2019 ride data for urban, suburban and rural areas](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Fig2.png "Ride Count Data (2019)")
 
@@ -40,13 +46,12 @@ Merged together, the line chart below illustrates the Total Fare by City Type fo
 
 Based on the results of 2019 PyBer rideshare analysis showing overall higher revenue in urban areas, and lower ride count but higher average fares in rural areas, here are three recommendations for PyBer:
 
-- Increase the number of drivers in rural areas to meet ride demand
-    - Average fare per ride, and average fare per driver in rural areas is higher than both urban and suburban areas. Increasing rural area drivers will meet demand during peaks in ride-share business. 
-
-
 - Increase fare for rides in urban areas. 
     - Demand for rides in urban areas is evident with % Total Rides by City Type. 
     - Average Fares per driver is lowest in urban areas, so increasing the fare will encourage drivers to make more trips, earning them more pay.
+
+- Decrease the fares for rides in rural areas to incentivize riders to use the service
+    - Average fare per ride, and average fare per driver in rural areas is higher than both urban and suburban areas. Offering special fares to riders will increase ridership and revenue in the rural areas.
 
 - Consider analyzing pay per mile in each area. 
     - A close look at pay structure might lead to equalizing pay per mile across city types.
