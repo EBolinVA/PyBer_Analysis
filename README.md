@@ -3,6 +3,11 @@
 ## Overview of the analysis
 The purpose of this project is to perform descriptive statistics, analyze and visualize ride-sharing data for PyBer, a ride-sharing company. Methods include using Python, Pandas, and the Matplotlib library. Given two files of ride-sharing data: "city_data.csv" comprised of city name, # of drivers, and city type, and "ride_data.csv" comprised of city name, date, fare and ride id, the two files were merged and analysis performed to determine the types of cities with the greatest amount of fares and the types of cities where the most rides occured per week. 
 
+## Resources
+- Data Sources: city_data.csv, ride_data.csv
+- Software: Python 3.9.13, Visual Studio Code 1.72.2,
+Jupyter Notebook v6
+
 ## Challenge Solution
 
 [Challenge Solution](PyBer.ipynb): The solution files for the module's challenge assignment are located in this folder.
@@ -12,7 +17,6 @@ The purpose of this project is to perform descriptive statistics, analyze and vi
 [Module Solution](PyBer_Challenge.ipynb): Any module demos or solution files for the module async content are located in this folder.
 
 ## Results
-Analysis of the data showed that more rides occurred in urban areas in 2019. 
 
 A summary of the data by city type shows the large difference in numbers of total rides and total drivers in urban areas compared to suburban and rural areas. Even though fares in urban areas are on average lower than suburban and rural fares, the number of rides in urban areas results in higher revenue in total fares. However, the average fare per driver is highest in rural areas.
 
