@@ -26,15 +26,15 @@ Average fares for riders in rural areas is as much as $11 higher than urban area
 
 However, we know from the Ride Count Data (2019) chart above that there is simply more demand for rides in urban areas. Even with lower average fares than suburban and rural city types, urban areas bring in more revenue for Pyber.
 
-![Image of pie chart showing percentage of Total Fares data for urban, suburban and rural areas](/Resources/fig5.png "% of Total Fares by City Type (2019)")
+![Image of pie chart showing percentage of Total Fares data for urban, suburban and rural areas](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Fig5.png "% of Total Fares by City Type (2019)")
 
-![Image of pie chart showing percentage of Total Rides data for urban, suburban and rural areas](/Resources/fig6.png "% of Total Rides by City Type (2019)")
+![Image of pie chart showing percentage of Total Rides data for urban, suburban and rural areas](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Fig6.png "% of Total Rides by City Type (2019)")
 
-![Image of pie chart showing percentage of Total Drivers data for urban, suburban and rural areas](/Resources/fig7.png "% of Total Drivers by City Type (2019)")
+![Image of pie chart showing percentage of Total Drivers data for urban, suburban and rural areas](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Fig7.png "% of Total Drivers by City Type (2019)")
 
 Merged together, the line chart below illustrates the Total Fare by City Type for the first quarter of 2019. Urban cities consistently earned higher fares than suburban and rural cities. Every city type experienced a spike in total fares between February and March, perhaps the colder, rainier time of the year. 
 
-![image of a line chart showing Total Fare by City Type for Quarter 1 of 2019](/Resources/Challenge_fare_summary.png)
+![image of a line chart showing Total Fare by City Type for Quarter 1 of 2019](https://github.com/EBolinVA/PyBer_Analysis/blob/main/Resources/Challenge_fare_summary.png)
 
 ## Summary and Recommendations
 
